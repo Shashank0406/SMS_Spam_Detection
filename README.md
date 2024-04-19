@@ -17,12 +17,14 @@ Converted non-numerical values in the target column to numerical values (0 for h
 Checked for null values and duplicates.
 Visualized the distribution of spam and ham messages using pie charts.
 Investigated the data's characteristics through summary statistics and visualization using seaborn.
+
 4. Text Processing:
 
 Utilized NLTK library for text processing.
 Tokenized messages into words and sentences.
 Calculated the number of characters, words, and sentences in each message.
 Preprocessed text by converting to lowercase, removing special characters, punctuation, stop words, and stemming.
+
 5. Model Building:
 
 Applied Naive Bayes Classifier due to its effectiveness with text data.
@@ -35,9 +37,11 @@ Evaluated models based on accuracy and precision scores.
 Tuned hyperparameters for Multinomial Naive Bayes model.
 Explored other classification algorithms including Logistic Regression, Support Vector Machines, Decision Trees, etc.
 Selected Multinomial Naive Bayes as the best-performing model based on evaluation metrics.
+
 7. Pickle Files:
 
 Saved TF-IDF vectorizer and Multinomial Naive Bayes model using pickle for future use.
+
 8. Deployment:
 
 Deployed the spam detection system using Streamlit for its simplicity and ease of use.
