@@ -32,6 +32,7 @@ Used TF-IDF vectorizer to convert text data into numerical format.
 Split data into training and testing sets.
 Trained various classification algorithms including GaussianNB, MultinomialNB, and BernoulliNB.
 Evaluated models based on accuracy and precision scores.
+
 6. Evaluation and Improvements:
 
 Tuned hyperparameters for Multinomial Naive Bayes model.
